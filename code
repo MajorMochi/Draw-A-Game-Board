@@ -1,0 +1,12 @@
+def horizontal():
+    print(" --- " * boardsize)
+
+def vertical():
+    print("|   " * (boardsize + 1))
+if __name__=='__main__':
+    boardsize = int(input("Enter boardsize:"))
+
+    for i in range(boardsize):
+            horizontal()
+            vertical()
+            horizontal()
